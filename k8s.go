@@ -32,15 +32,15 @@ import (
 
 const (
 	apiHost            = "http://127.0.0.1:8001"
-	certEndpoint       = "/apis/stable.k8s.psg.io/v1/namespaces/%s/certificates"
-	certEndpointAll    = "/apis/stable.k8s.psg.io/v1/certificates"
+	certEndpoint       = "/apis/stable.k8s.repairtechsolutions.com/v1/namespaces/%s/certificates"
+	certEndpointAll    = "/apis/stable.k8s.repairtechsolutions.com/v1/certificates"
 	ingressEndpoint    = "/apis/extensions/v1beta1/namespaces/%s/ingresses"
 	ingressEndpointAll = "/apis/extensions/v1beta1/ingresses"
 	secretsEndpoint    = "/api/v1/namespaces/%s/secrets"
 	secretsEndpointAll = "/api/v1/secrets"
 	eventsEndpoint     = "/api/v1/namespaces/%s/events"
 
-	annotationNamespace = "stable.k8s.psg.io/kcm"
+	annotationNamespace = "stable.k8s.repairtechsolutions.com/kcm"
 )
 
 type WatchEvent struct {
